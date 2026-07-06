@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+.dart_tool/
+.packages
+build/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+*.apk
+*.ipa
+*.aab
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Data
+*.db
+*.sqlite3
