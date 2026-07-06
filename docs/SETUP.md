@@ -38,7 +38,7 @@ El `CLAUDE.md` del template detecta sus propios `{{placeholders}}` y ejecuta el 
 
 ## Paso 4 — Instalar el banco de skills recomendado
 
-Ver [SKILLS-CATALOG.md](SKILLS-CATALOG.md). Mínimo recomendado: el plugin **Superpowers** (disciplina de ingeniería: TDD, debugging sistemático, verificación) — es el que más calidad agrega.
+El banco completo viene en la carpeta `skills/` del repo: `cp -R claude-agent-starter/skills/* ~/.claude/skills/` (o selectivo — ver [SKILLS-CATALOG.md](SKILLS-CATALOG.md)). Mínimo recomendado: la categoría de disciplina de ingeniería (TDD, debugging sistemático, verificación) — es la que más calidad agrega.
 
 ## Paso 5 — Primera tarea real
 

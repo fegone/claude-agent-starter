@@ -42,11 +42,13 @@ claude-agent-starter/
 │   │   ├── skill-templates/   (5 skills de dominio parametrizadas)
 │   │   └── reports/           (reportes por agente por tarea)
 │   └── docs/                  (PRD, TTD, SOP, SPRINT, CHANGELOG — templates)
+├── skills/                    ← EL BANCO COMPLETO: 50+ skills listas (cp -R skills/* ~/.claude/skills/)
+│   └── README.md              (categorías, instalación, atribuciones)
 └── docs/
     ├── AGENTS-GUIDE.md        ← guía DETALLADA de cada agente: misión, modelo, reglas, cuándo usarlo
     ├── ORCHESTRATION.md       ← cómo orquestar: modos de ejecución, paralelismo, worktrees, veto
     ├── MEMORY-SYSTEM.md       ← el sistema de memoria completo: índice, estados, dieta anti-engorde
-    ├── SKILLS-CATALOG.md      ← catálogo del banco de skills recomendado (con origen e instalación)
+    ├── SKILLS-CATALOG.md      ← catálogo del banco: qué hace cada skill y cuál elegir
     └── SETUP.md               ← instalación paso a paso desde cero
 ```
 

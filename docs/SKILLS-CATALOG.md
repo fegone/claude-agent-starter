@@ -1,8 +1,8 @@
-# Catálogo de Skills — el banco recomendado y de dónde instalarlo
+# Catálogo de Skills — el banco completo y cómo elegir
 
-> Las skills son conocimiento reutilizable que el agente invoca bajo demanda (`/nombre-skill`). Este catálogo documenta el banco curado que usamos en producción: qué hace cada una, por qué vale la pena y de dónde instalarla.
+> Las skills son conocimiento reutilizable que el agente invoca bajo demanda (`/nombre-skill`). Este catálogo documenta el banco curado que usamos en producción: qué hace cada una y cuál instalar según tu caso.
 >
-> **Por qué un catálogo y no copias:** la mayoría de estas skills son de terceros con su propio repositorio y licencia. Copiarlas aquí crearía duplicados que se pudren (regla de oro del framework) y problemas de atribución. Instálalas de su fuente — se mantienen actualizadas solas.
+> **El banco YA VIENE INCLUIDO en la carpeta [`skills/`](../skills/) de este repo** — 50+ skills auditadas y optimizadas, con atribución a sus autores (ver [`skills/README.md`](../skills/README.md)). Instalación: `cp -R skills/* ~/.claude/skills/`. Si prefieres la versión más actualizada de alguna, su fuente original está en las tablas de abajo.
 
 ---
 
@@ -81,14 +81,15 @@ Fuente: plugin **Superpowers** (`github.com/obra/superpowers` — MIT). Es el co
 ## Instalación
 
 ```bash
-# Dentro de Claude Code:
-/plugin  →  buscar el marketplace/plugin  →  instalar
+# Todo el banco (desde la raíz de este repo):
+cp -R skills/* ~/.claude/skills/
 
-# Superpowers (el núcleo de disciplina):
-# https://github.com/obra/superpowers — seguir su README
-
-# Las skills de Anthropic vienen en el plugin oficial anthropic-skills
+# O por categoría/skill individual:
+cp -R skills/systematic-debugging skills/test-driven-development ~/.claude/skills/
 ```
+
+> Alternativa: instalar de las fuentes originales vía `/plugin` dentro de Claude Code
+> (superpowers, anthropic-skills, marketplaces) — se auto-actualizan.
 
 ## Criterios para curar TU banco (lo aprendido)
 
