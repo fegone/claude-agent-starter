@@ -23,7 +23,7 @@ Cuando detectes `{{NOMBRE_PROYECTO}}` en el titulo, ejecuta este flujo automatic
 7. **Problema que resuelve**
 8. **Idioma de la UI** — espanol RD / espanol neutro / EN / multi
 9. ⚠️ **Dominio delicado** — ¿toca dinero/impuestos (fiscal-contable), leyes (legal), salud (HIPAA/PHI)?
-   - Fiscal/contable o legal critico → el agente de dominio va en `claude-opus-4-8` (regla de oro: "un descuadre fiscal no perdona") y tiene **VETO** en su area
+   - Fiscal/contable o legal critico → el agente de dominio va en `claude-opus-5` (regla de oro: "un descuadre fiscal no perdona") y tiene **VETO** en su area
    - HIPAA/PHI o datos sensibles regulados → usar LLM local (ej. Ollama / LM Studio / LiteLLM en tu propia red) para ese dato; NUNCA enviarlo a APIs externas
 10. **Web publica / SEO** — ¿habra sitio indexable? (activa agentes SEO)
 11. **Canales** — WhatsApp, Email, Push, SMS, Telegram
@@ -38,7 +38,7 @@ Los templates viven en `.claude/agent-templates/` y `.claude/skill-templates/` (
    - ❌ NUNCA linea `tools:` en el frontmatter (restringe y bloquea los `mcp__*` silenciosamente). Si un agente necesita MCP especifico, listar los `mcp__*` explicitos — de resto, omitir y hereda todo.
    - ❌ NUNCA copiar skills/agentes globales al proyecto (dup se pudre; el global se invoca igual desde aqui). Referenciar, no duplicar.
    - ❌ NUNCA dejar un template sin llenar en `.claude/agents/` — lo que no aplica se queda en `agent-templates/`.
-   - ✅ Modelos vigentes: `claude-sonnet-5` (implementacion) / `claude-opus-4-8` (orquestacion, creative, dominio delicado). Verificar contra la doc oficial de Anthropic si estos nombres rotaron.
+   - ✅ Modelos vigentes: `claude-sonnet-5` (implementacion) / `claude-opus-5` (orquestacion, creative, dominio delicado). Verificar contra la doc oficial de Anthropic si estos nombres rotaron.
 
 ### Paso 4: Documentacion
 - Este `CLAUDE.md` — reemplazar todos los `{{placeholders}}`; **borrar esta seccion Onboarding completa** al terminar (self-cleaning)

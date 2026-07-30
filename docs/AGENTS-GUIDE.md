@@ -16,7 +16,7 @@ Un solo agente genérico tiene que ser bueno en todo a la vez — y termina medi
 
 | Nivel | Modelo (a la fecha) | Se usa para | Razón |
 |---|---|---|---|
-| **Máximo razonamiento** | `claude-opus-4-8` | Orquestador, Creative, dominio delicado (fiscal/legal/salud), auditorías profundas | Decisiones arquitectónicas, juicio estético, áreas donde el error es caro o irreversible |
+| **Máximo razonamiento** | `claude-opus-5` | Orquestador, Creative, dominio delicado (fiscal/legal/salud), auditorías profundas | Decisiones arquitectónicas, juicio estético, áreas donde el error es caro o irreversible |
 | **Balanceado** | `claude-sonnet-5` | WebDev, MobileDev, Security, DevOps, Tester, SEO, Content, Data Analyst | El mejor coding por dólar; rápido sin perder calidad en implementación |
 | **Económico** | `claude-haiku-4-5` | Workers de alto volumen, tareas repetitivas y mecánicas | ~90% de la capacidad a una fracción del costo, para lo que no requiere juicio |
 

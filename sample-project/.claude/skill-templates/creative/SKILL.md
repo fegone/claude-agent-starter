@@ -1,7 +1,7 @@
 ---
 name: creative
 description: "UI/UX {{NOMBRE_PROYECTO}} — Se configura en onboarding."
-model: claude-opus-4-8
+model: claude-opus-5
 ---
 
 # Creative — {{NOMBRE_PROYECTO}} Design
