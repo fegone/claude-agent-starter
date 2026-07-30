@@ -1,23 +1,23 @@
 {
-    "model": "claude-opus-4-8",
-    "permissions": {
-        "defaultMode": "default",
-        "allow": [
-            "Read(*)",
-            "Glob(*)",
-            "Grep(*)",
-            "Skill(*)",
-            "AskUserQuestion(*)"
-        ],
-        "deny": [
-            "Bash(git push --force*)",
-            "Bash(git push -f*)",
-            "Bash(rm -rf /*)",
-            "Bash(rm -rf ~*)",
-            "Read(./.env)",
-            "Read(./.env.*)",
-            "Read(./**/*.pem)",
-            "Read(./**/*credentials*)"
-        ]
-    }
+  "model": "claude-opus-5",
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Read(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "Skill(*)",
+      "AskUserQuestion(*)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/*.pem)",
+      "Read(./**/*credentials*)"
+    ]
+  }
 }
