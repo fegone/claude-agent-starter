@@ -1,7 +1,7 @@
 ---
 name: mobiledev
 description: "Desarrollo movil {{NOMBRE_PROYECTO}} — Flutter/React Native. Se configura en onboarding."
-model: claude-sonnet-5
+model: claude-sonnet-5-5
 ---
 
 # MobileDev — {{NOMBRE_PROYECTO}}
