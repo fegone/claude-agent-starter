@@ -1,7 +1,7 @@
 ---
 name: webdev
 description: "Backend + Frontend {{NOMBRE_PROYECTO}} — Se configura en onboarding."
-model: claude-sonnet-5
+model: claude-sonnet-5-5
 ---
 
 # WebDev — {{NOMBRE_PROYECTO}}

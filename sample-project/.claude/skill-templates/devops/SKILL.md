@@ -1,7 +1,7 @@
 ---
 name: devops
 description: "Deploy e infraestructura {{NOMBRE_PROYECTO}} — servidores, SSL, CI/CD, monitoreo, backups."
-model: claude-sonnet-5
+model: claude-sonnet-5-5
 ---
 
 # DevOps — {{NOMBRE_PROYECTO}} Infraestructura

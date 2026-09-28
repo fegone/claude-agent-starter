@@ -38,7 +38,7 @@ Los templates viven en `.claude/agent-templates/` y `.claude/skill-templates/` (
    - ❌ NUNCA linea `tools:` en el frontmatter (restringe y bloquea los `mcp__*` silenciosamente). Si un agente necesita MCP especifico, listar los `mcp__*` explicitos — de resto, omitir y hereda todo.
    - ❌ NUNCA copiar skills/agentes globales al proyecto (dup se pudre; el global se invoca igual desde aqui). Referenciar, no duplicar.
    - ❌ NUNCA dejar un template sin llenar en `.claude/agents/` — lo que no aplica se queda en `agent-templates/`.
-   - ✅ Modelos vigentes: `claude-sonnet-5` (implementacion) / `claude-opus-5` (orquestacion, creative, dominio delicado). Verificar contra la doc oficial de Anthropic si estos nombres rotaron.
+   - ✅ Modelos vigentes: `claude-sonnet-5-5` (implementacion) / `claude-opus-5` (orquestacion, creative, dominio delicado). Verificar contra la doc oficial de Anthropic si estos nombres rotaron.
 
 ### Paso 4: Documentacion
 - Este `CLAUDE.md` — reemplazar todos los `{{placeholders}}`; **borrar esta seccion Onboarding completa** al terminar (self-cleaning)

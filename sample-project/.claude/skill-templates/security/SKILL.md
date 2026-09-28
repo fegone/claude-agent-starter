@@ -1,7 +1,7 @@
 ---
 name: security
 description: "Auditoria de seguridad {{NOMBRE_PROYECTO}} — OWASP, datos sensibles, API keys, dependencias."
-model: claude-sonnet-5
+model: claude-sonnet-5-5
 ---
 
 # Security — {{NOMBRE_PROYECTO}} Auditor
